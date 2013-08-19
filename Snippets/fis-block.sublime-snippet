@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{% block name="${1:blockname}" %}${2:
+	$3
+}{% /block %}$0
+]]></content>
+	<tabTrigger>block</tabTrigger>
+	<scope>text.html.basic,text.html.smarty</scope>
+</snippet>

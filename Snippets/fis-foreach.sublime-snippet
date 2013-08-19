@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{% foreach ${1:collection} as ${3:${2:key}=>}${4:item} %}
+	$0
+{% /foreach %}
+]]></content>
+	<tabTrigger>foreach</tabTrigger>
+	<scope>text.html.basic,text.html.smarty</scope>
+</snippet>

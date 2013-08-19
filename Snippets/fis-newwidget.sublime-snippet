@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{% widget${3: ${1:var}=\$${2:val}} %}
+	${4:\{%* html here *%\}}
+{% /widget %}
+]]></content>
+	<tabTrigger>newwidget</tabTrigger>
+	<scope>text.html.basic,text.html.smarty</scope>
+</snippet>
